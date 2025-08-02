@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nawaf Alshehri – Cloud & DevOps</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('sahaba-pic.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.55);
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+
+  <!-- Overlay for readability -->
+  <div class="overlay min-h-screen flex flex-col">
+    
+    <!-- Navbar -->
+    <header class="w-full py-4 px-8 flex justify-between items-center bg-gradient-to-b from-black/60 to-transparent">
+      <h1 class="text-2xl font-bold tracking-wide">سحابة Nawaf</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#projects" class="hover:text-yellow-400">Projects</a>
+        <a href="#labs" class="hover:text-yellow-400">Labs</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex-grow flex items-center justify-center text-center px-6">
+      <div>
+        <h2 class="text-5xl md:text-6xl font-bold text-yellow-300 drop-shadow-lg">Building in the Cloud</h2>
+        <p class="mt-6 text-lg max-w-2xl mx-auto text-gray-200">
+          I’m Nawaf Alshehri — Cloud & DevOps Engineer with a passion for security, automation, and infrastructure.
+        </p>
+        <a href="resume.pdf" class="mt-8 inline-block bg-yellow-400 text-black px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">
+          Download Resume
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gradient-to-b from-yellow-900/90 to-yellow-800/80 py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold text-yellow-300 mb-6">About Me</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-200">
+      IT Specialist turned DevOps & Cloud Engineer. I design secure, scalable, and automated cloud solutions.
+      With hands-on experience in AWS, GCP, networking, and security, I bring projects to life while ensuring compliance and reliability.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-yellow-50 text-gray-900 py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10 text-yellow-800">Projects</h2>
+    <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+      
+      <!-- Project Card -->
+      <a href="https://aws.sahabanet.com/"
+         class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
+        <img src="assets/aws.webp" alt="AWS Resume Project" class="h-40 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-lg">Cloud Resume Challenge (AWS)</h3>
+          <p class="text-sm text-gray-600">Serverless + DynamoDB + GitHub Actions CI/CD</p>
+        </div>
+      </a>
+
+      <!-- Project Card -->
+      <a href="https://gcp.sahabanet.com/"
+         class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
+        <img src="assets/gcp.webp" alt="GCP Resume Project" class="h-40 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-lg">Cloud Resume Challenge (GCP)</h3>
+          <p class="text-sm text-gray-600">Cloud Functions + Firestore + CI/CD</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Labs Section -->
+  <section id="labs" class="bg-gradient-to-b from-yellow-900/90 to-yellow-800/80 py-16 px-6 text-center text-white">
+    <h2 class="text-3xl font-bold text-yellow-300 mb-6">Labs</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-200 mb-10">
+      A collection of hands-on labs I’ve built to practice cloud security, automation, and DevOps principles.
+    </p>
+    <div class="max-w-4xl mx-auto grid gap-8 md:grid-cols-2">
+      <div class="bg-black/40 rounded-xl p-6 shadow-md">
+        <h3 class="text-xl font-bold mb-3 text-yellow-300">Active Directory Security Lab</h3>
+        <p class="text-gray-300">Built a full AD environment with PowerShell automation and security assessments.</p>
+      </div>
+      <div class="bg-black/40 rounded-xl p-6 shadow-md">
+        <h3 class="text-xl font-bold mb-3 text-yellow-300">AWS Hybrid Network Lab</h3>
+        <p class="text-gray-300">Integrated AWS VPC with on-prem AD, exploring IAM, routing, and VPN connectivity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 text-sm text-gray-400">
+    © 2025 Nawaf Alshehri — Built with ❤️ in the Cloud
+  </footer>
+
+</body>
+</html>
